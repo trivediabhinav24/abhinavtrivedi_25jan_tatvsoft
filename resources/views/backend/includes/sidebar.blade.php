@@ -55,6 +55,12 @@
                 </li>
 
                 <li class="divider"></li>
+                <li class="nav-item">
+                            <a class="nav-link" href="{{ url('admin/event/create') }}">
+                              Event Create
+                            </a>
+                        </li>
+                <li class="divider"></li>
 
                 <li class="nav-item nav-dropdown {{
                     active_class(Route::is('admin/log-viewer*'), 'open')
